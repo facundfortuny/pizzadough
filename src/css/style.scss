@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+@import '~bulma/bulma.sass';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+body {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.header-image {
+	width: 15rem;
+	margin-bottom: 20px;
+}
+
+.footer {
+	display: flex;
+	padding: 1.5rem 1.5rem;
+	line-height: 1.5rem;
+	a span {
+		color: $secondary-color;
+		padding: 0 10px;
+    font-weight: bold;
+	}
+	a span:hover {
+		color: $primary-color;
+	}
+}
