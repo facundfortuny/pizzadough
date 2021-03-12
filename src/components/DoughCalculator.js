@@ -126,13 +126,12 @@ const DoughCalculator = () => {
           <h4 className="title is-size-4 is-spaced">Water</h4>
         </div>
         <div className="box has-text-centered">
-          <h4 className="title is-size-2 is-spaced">You first mix:</h4>
+          <h4 className="title is-size-4 is-spaced">You first mix:</h4>
           <h4 className="title is-size-4 is-spaced">
             {(total * 0.75).toFixed(2)}g
           </h4>
           <h4 className="title is-size-4 is-spaced">
-            this amout of water with the flour and after the autolysing add the
-            rest:
+            of water with the flour and after the autolysing add the rest:
           </h4>
           <h4 className="title is-size-4 is-spaced">
             {(total * 0.25).toFixed(2)}g
